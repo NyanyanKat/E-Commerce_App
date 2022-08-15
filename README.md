@@ -1,6 +1,6 @@
 # 1 About
 
-A full-stack Amazon style app showcasing an elegant interface with Context API. You can add/remove items to the shopping cart, leveraging the capability of cloud functions to make purchase with Stripe API. Utilizing Firebase user authentication and storage system to retrive order history.
+A full-stack Amazon style app showcasing an elegant interface with Context API. You can add/remove items to the shopping cart, leveraging the capability of cloud functions to make purchase with Stripe API. Utilizing Firebase user authentication and storage system to retrieve order history.
 
 ## Live Demo
 
