@@ -1,0 +1,9 @@
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 200px; */
+    transform: scale(1.2);
+    margin-top: 70px;
+}
+
