@@ -28,20 +28,23 @@ Stripe
 Firebase  
 Axios
 
-4 Completed Tasks
+# 4 Completed Tasks
+
 fetch and display users  
 register/sign in /sign out with Firebase  
 add and make changes to items in shopping cart  
 cloud functions to process Stripe payments (serverless)  
 view order history with Firestore
 
-5 Todo Tasks
+# 5 Todo Tasks
+
 user profile  
 edit, and delete user  
 admin functionality  
 product page
 
-6 Disclaimer
+# 6 Disclaimer
+
 This project is solely intended for practicing purposes.
 
 It is not intended to create any kind of Amazon competitor, but to advance my skills in full-stack development.
