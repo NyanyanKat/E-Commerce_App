@@ -1,21 +1,21 @@
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
-import Checkout from "./Checkout";
-import Login from "./Login";
+import Header from "./components/Header.js";
+import Home from "./pages/Home.js";
+import Checkout from "./pages/Checkout.js";
+import Login from "./pages/Login.js";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
 } from "react-router-dom";
-import Orders from "./Orders";
-import Prime from "./Prime";
-import { ContentNotFound } from "./ContentNotFound";
+import Orders from "./pages/Orders";
+import Prime from "./pages/Prime";
+import { ContentNotFound } from "./components/ContentNotFound.js";
 import { useEffect } from "react";
 import { auth } from "./firebase.js";
-import { useStateValue } from "./StateProvider.js";
-import Payment from "./Payment";
+import { useStateValue } from "./context/StateProvider.js";
+import Payment from "./components/Payment.js";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 

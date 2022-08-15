@@ -4,7 +4,7 @@ Firebase Sign In, Sign Out
 Firestore
 Stripe functionality
 Checkout page (payment)
-Cloud function to process strip payment (serverless)
+Cloud function to process stripe payment (serverless)
 
 Add items to cart
 View cart and order details

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import CheckoutProduct from "./CheckoutProduct";
+import CheckoutProduct from "./CheckoutProduct.js";
 import "./Payment.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../context/StateProvider.js";
 import { Link, useNavigate } from "react-router-dom";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
-import { getBasketTotal } from "./reducer.js";
-import axios from "./axios.js";
-import { db } from "./firebase.js";
+import { getBasketTotal } from "../context/reducer.js";
+import axios from "../utils/axios.js";
+import { db } from "../firebase.js";
 
 const Payment = () => {
   const navigate = useNavigate();
