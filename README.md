@@ -4,7 +4,7 @@ A full-stack Amazon style app showcasing an elegant interface with Context API. 
 
 ## Live Demo
 
-[https://clone-d5d57.web.app]
+[Jimmy's Demo](https://clone-d5d57.web.app)
 
 # 2 Features
 
